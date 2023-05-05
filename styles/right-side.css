@@ -1,0 +1,176 @@
+/* right side global css */
+
+.border-radius {
+  border-radius: 12px;
+}
+
+.relative {
+  position: relative;
+}
+
+.white-divs {
+  display: flex;
+  column-gap: 10px;
+
+  background-color: #fff;
+  border-radius: 6px;
+
+  color: #747899;
+  font-size: 14px;
+  padding: 14px 18px;
+}
+
+/* right side css */
+
+.right-side {
+  display: flex;
+}
+
+/* girl css */
+
+.girl-on-balcony-div {
+  width: fit-content;
+}
+
+.girl-on-balcony-img {
+  width: 160px;
+  margin-top: -20px;
+}
+
+.girl-corner-crop {
+  width: 80px;
+  height: 30px;
+
+  background-color: #130342;
+  position: absolute;
+
+  top: -15px;
+  right: -30px;
+  transform: rotate(45deg);
+}
+
+.free-courses-div {
+  position: absolute;
+  bottom: 15px;
+  left: -80px;
+}
+
+.number-p {
+  color: #e85439;
+  font-weight: 600;
+}
+
+.briefcase-img {
+  width: 30px;
+
+  background-color: #fce4df;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+/* man css */
+
+.man-img {
+  width: 110px;
+
+  margin-top: -50px;
+  margin-left: 80px;
+}
+
+.man-corner-crop {
+  width: 80px;
+  height: 25px;
+
+  background-color: #130342;
+  position: absolute;
+
+  top: -65px;
+  right: -5px;
+  transform: rotate(35deg);
+}
+
+.deisgner-div {
+  position: absolute;
+  padding: 6px 12px;
+
+  bottom: -30px;
+  left: -25px;
+
+  z-index: 10;
+}
+
+.man-text-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.name-p {
+  color: #03023f;
+  font-weight: 600;
+}
+
+.star-img {
+  width: 10px;
+}
+
+/* woman smiling css */
+
+.woman-smiling-img {
+  width: 150px;
+
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.woman-smiling-corner-crop {
+  width: 80px;
+  height: 25px;
+
+  background-color: #130342;
+  position: absolute;
+
+  top: 35px;
+  right: -35px;
+  transform: rotate(35deg);
+}
+
+.congrats-div {
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+  left: 10px;
+}
+
+.congrats-text-div {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 2px;
+}
+
+.badge-img {
+  background-color: #6440f9;
+  border-radius: 20px;
+  padding: 4px;
+
+  width: 30px;
+  height: 30px;
+
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+.congrats {
+  color: #6440f9;
+  font-weight: 600;
+}

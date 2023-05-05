@@ -1,0 +1,142 @@
+.main {
+  width: 100%;
+  height: 400px;
+  background-color: #130342;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+
+  color: #fff;
+  padding: 0px 100px;
+}
+
+.wave {
+  display: block;
+  position: relative;
+
+  height: 40px;
+  width: 100%;
+
+  background: #130342;
+  transform: scale(1, 1.5);
+
+  z-index: -1;
+}
+
+.wave:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  right: -25%;
+  top: 20px;
+}
+
+.wave:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100%;
+  width: 100%;
+  height: 300px;
+  background-color: #130342;
+  left: -25%;
+  top: -240px;
+  clip-path: ellipse(100% 15% at -15% 100%);
+
+  z-index: 21;
+}
+
+/* bg design css */
+
+.x {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.x-line-one {
+  width: 14px;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: #1f3172;
+
+  transform: rotate(50deg);
+}
+.x-line-two {
+  width: 14px;
+  height: 2px;
+
+  position: absolute;
+
+  background-color: #1f3172;
+
+  transform: rotate(130deg);
+}
+.x-second {
+  position: absolute;
+  top: 430px;
+  left: 470px;
+}
+.x-third {
+  position: absolute;
+  top: 18px;
+  right: 180px;
+}
+.x-third .x-line-one {
+  background-color: #530f56;
+  width: 12px;
+  height: 1.5px;
+}
+.x-third .x-line-two {
+  background-color: #530f56;
+  width: 12px;
+  height: 1.5px;
+}
+
+.circle-one {
+  position: absolute;
+
+  top: 70px;
+  left: 185px;
+
+  border: 2px solid #5c313d;
+  border-radius: 50px;
+  padding: 3px;
+}
+.circle-two {
+  position: absolute;
+
+  top: 400px;
+  right: 40px;
+
+  border: 2px solid #203a7a;
+  border-radius: 50px;
+  padding: 3px;
+}
+.circle-three {
+  position: absolute;
+
+  top: 388px;
+  left: 150px;
+
+  border: 2px solid #5c313d;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.plus {
+  position: absolute;
+
+  left: 20px;
+
+  color: #623a46;
+  font-size: 18px;
+  font-weight: 600;
+}
